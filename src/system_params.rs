@@ -140,6 +140,8 @@ lazy_static! {
         Address::from_low_u64_be(SYSTEM_CONTRACTS_OFFSET_ADDRESS as u64 + 0x03);
     pub static ref KNOWN_CODE_FACTORY_SYSTEM_CONTRACT_ADDRESS: Address =
         Address::from_low_u64_be(SYSTEM_CONTRACTS_OFFSET_ADDRESS as u64 + 0x04);
+    pub static ref CODE_ORACLE_ADDRESS: Address =
+        Address::from_low_u64_be(SYSTEM_CONTRACTS_OFFSET_ADDRESS as u64 + 0x12);
     pub static ref KECCAK256_ROUND_FUNCTION_PRECOMPILE_FORMAL_ADDRESS: Address =
         Address::from_low_u64_be(KECCAK256_ROUND_FUNCTION_PRECOMPILE_ADDRESS as u64);
     pub static ref SHA256_ROUND_FUNCTION_PRECOMPILE_FORMAL_ADDRESS: Address =
